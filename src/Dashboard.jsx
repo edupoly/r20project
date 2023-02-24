@@ -15,6 +15,9 @@ function Dashboard() {
           <li>
             <Link to="/dashboard/addService">Add Service</Link>
           </li>
+          <li>
+            <Link to="/dashboard/viewServices">View Services</Link>
+          </li>
         </ul>
         <div className="w-75">
           <Outlet></Outlet>

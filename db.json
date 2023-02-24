@@ -24,11 +24,15 @@
   "serviceTypes": [
     {
       "id": 1,
-      "title": "Puncture"
+      "type": "Puncture"
     },
     {
       "type": "Cleaning",
       "id": 2
+    },
+    {
+      "type": "general",
+      "id": 3
     }
   ],
   "services": [
@@ -53,6 +57,18 @@
         "CrossOver": 120,
         "SUV": 200
       }
+    },
+    {
+      "serviceType": "Cleaning",
+      "serviceTitle": "bodywash",
+      "serviceCost": {
+        "Hatchback": "100",
+        "Sedan": "140",
+        "CrossOver": "200",
+        "SUV": "240",
+        "van": "300"
+      },
+      "id": 4
     }
   ],
   "posts": [
