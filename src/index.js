@@ -16,6 +16,7 @@ import ServiceCatelog from './components/ServiceCatelog';
 import Booking from './components/Booking';
 import Details from './components/Details';
 import ServiceBooking from './components/ServiceBooking';
+import Payment from './components/Payment';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
           {
             path:"/booking/serviceBooking",
             element:<ServiceBooking></ServiceBooking>
+          },
+          {
+            path:"/booking/payment/:amount",
+            element:<Payment></Payment>
           }
         ]
       }
